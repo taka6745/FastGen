@@ -1,27 +1,9 @@
-# Ignore build results
-bin/
-obj/
+# Ignore build artifacts
+/target/
 
-# Ignore user-specific files
-*.rsuser
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
+# Ignore Cargo.lock for libraries (if applicable)
+Cargo.lock
 
-# Ignore Visual Studio for Mac
+# Optional: Ignore editor specific files
 .vscode/
 .idea/
-*.csproj.user
-*.csproj.nuget.dgspec.json
-*.csproj.nuget.g.props
-*.csproj.nuget.g.targets
-
-# Rider
-.idea/
-*.sln.iml
-*.sln.ide
-
-# NuGet packages
-*.nupkg
-*.snupkg
